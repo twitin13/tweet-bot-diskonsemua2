@@ -13,18 +13,18 @@ const client = new TwitterApi({
   try {
     // 📝 Isi tweet kamu
     const textTweet = `
-Shopeefood TOMORO COFFEE Diskon Jadi 16K an aja DAPET 2 ‼️☕
+‼️ ShopeeFood Diskon 90% s/d 17RB 🍝
+Resto Tertentu | Restock tiap jam ⏰ 
 
-Gass belinya disiniii 👇
-https://spf.shopee.co.id/2qMvKA7ast
-https://spf.shopee.co.id/2qMvKA7ast
+Klik tab " voucher " untuk klaim 👇👇 
+https://spf.shopee.co.id/9Utq7h7lPg
+https://spf.shopee.co.id/9Utq7h7lPg
 
-t. gofood grabfood kode promo loker wfh go grab shopee food sfood gojek thr shopeepay spay daget
+gofood grabfood kode promo go grab shopee food gojek gratis ongkir
 `;
 
-    // 📸 Upload dua gambar
+    // 📸 Upload gambar
     const mediaId1 = await client.v1.uploadMedia('1.jpg');
-    const mediaId2 = await client.v1.uploadMedia('2.jpg');
 
     // 🐦 Kirim tweet dengan teks + dua gambar
     const tweet = await client.v2.tweet({
@@ -37,3 +37,4 @@ t. gofood grabfood kode promo loker wfh go grab shopee food sfood gojek thr shop
     console.error('❌ Gagal kirim tweet:', error);
   }
 })();
+
