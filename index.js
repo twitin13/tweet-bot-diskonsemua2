@@ -17,9 +17,10 @@ const client = new TwitterApi({
 Resto Tertentu | Restock tiap jam ⏰ 
 
 Klik tab " voucher " untuk klaim 👇👇 
-https://spf.shopee.co.id/9Utq7h7lPg
+https://spf.shopee.co.id/1BF3d56QPO
+https://spf.shopee.co.id/1BF3d56QPO
 
-gofood grabfood kode promo go grab shopee food gojek gratis ongkir Gary Iskak minggu
+gofood grabfood go grab shopee food gojek gratis ongkir minggu apel pagi senin kode promo
 `;
 
     // 📸 Upload 1 gambar dari repo
@@ -36,6 +37,7 @@ gofood grabfood kode promo go grab shopee food gojek gratis ongkir Gary Iskak mi
     console.error('❌ Gagal kirim tweet:', error);
   }
 })();
+
 
 
 
