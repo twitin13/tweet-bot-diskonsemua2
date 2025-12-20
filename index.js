@@ -13,14 +13,13 @@ const client = new TwitterApi({
   try {
     // 📝 Isi tweet kamu di sini (nanti aku bantu isi sesuai request kamu)
     const textTweet = `
-‼️ ShopeeFood Diskon 90% s/d 17RB 🍝
-Resto Tertentu | Restock tiap jam ⏰ 
+ShopeeFood lagi ada promo diskon 100% hingga 35RB dengan min. belanja 20RB ‼️
+Berlaku untuk semua resto, khusus akun tertentu.
 
-Klik tab " voucher " untuk klaim 👇👇 
-https://spf.shopee.co.id/1BF3d56QPO
+Cek & klaim di sini 👇
 https://spf.shopee.co.id/1BF3d56QPO
 
-gofood grabfood go grab shopee food gojek gratis ongkir minggu apel pagi senin kode promo
+gofood grabfood promo go grab shopee food sfood voucher daget gojek gratis ongkir rabu kamis malam jumat
 `;
 
     // 📸 Upload 1 gambar dari repo
@@ -37,6 +36,7 @@ gofood grabfood go grab shopee food gojek gratis ongkir minggu apel pagi senin k
     console.error('❌ Gagal kirim tweet:', error);
   }
 })();
+
 
 
 
