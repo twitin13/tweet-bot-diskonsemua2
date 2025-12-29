@@ -13,7 +13,7 @@ const client = new TwitterApi({
   try {
     // 📝 Isi tweet kamu di sini (nanti aku bantu isi sesuai request kamu)
     const textTweet = `
-ShopeeFood lagi ada promo diskon 100% hingga 35RB dengan min. belanja 20RB ‼️
+ShopeeFood lagi ada promo diskon 100% hingga 35RB dengan min. belanja Rp0 ‼️
 Berlaku untuk semua resto, khusus akun tertentu.
 
 Cek & klaim di sini 👇
@@ -36,6 +36,7 @@ gofood grabfood promo go grab shopee food sfood voucher daget gojek gratis ongki
     console.error('❌ Gagal kirim tweet:', error);
   }
 })();
+
 
 
 
